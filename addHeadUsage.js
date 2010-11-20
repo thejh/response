@@ -1,9 +1,9 @@
-var http     = require('http'),
-    response = require('./lib/response');
+var http     = require('http');
 
+require('./lib/response');
 
 http.createServer(function (req, res) {
-  var content = 'hello, i know nodejs.';
+  var content = 'hello, i know nodejitsu.';
 
   res.setHeader('Content-Length', content.length);
   res.setHeader('Foo-Bar', 'A');
