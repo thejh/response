@@ -44,3 +44,8 @@ Now http.ServerResponse is monkey patched with additional methods.
     Content-Length	21
     Foo-Bar	A
     Connection	keep-alive
+    
+    
+## Authors
+
+Alexis Sellier (cloudhead), Marak Squires
